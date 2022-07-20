@@ -5,11 +5,11 @@
 # Site
 title: jdjwzxAPI
 subtitle: 'jdjwzxAPI Blog'
-description: 'qqq'
-keywords:qqq
+description: ''
+keywords:
 author: jdjwzxapi
 language: zh-CN
-timezone: '111'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
