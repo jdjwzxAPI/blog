@@ -14,17 +14,18 @@ $ hexo new "My New Post"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
+
+也可以手动添加文档->文件名.md放入：主文件夹/source/_posts/ 中。
+
+**注意要在文档开头添加**:
 ````
-也可以手动添加文档
-并在文档开头添加:
-```
 ---
 title: 标题
 date: 2022-07-20 15:32:57
 tags:标签
 ---
-```
 ````
+**否则会出现问题！！！**
 ### Run server
 
 ``` bash
