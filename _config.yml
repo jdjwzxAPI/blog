@@ -7,13 +7,13 @@ title: jdjwzxAPI
 subtitle: 'jdjwzxAPI Blog'
 description: 'jdjwzx233 YYDS!!!!!!!!!!!'
 keywords:
-author: jdjwzx233
+author: jdjwzxapi
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.jdjwzxapi.site
+url: https://hello-cloudbase-8gk8ggrjec626492-1309493179.tcloudbaseapp.com/public/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,67 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: shoka
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# hexo-admin authentification
-admin:
-  username: jdjwzxAPI
-  password_hash: $2a$10$rH9lY2lStRYEnoLNGR1Gm.Ytw15JoOiviaz3Xve/WoVh/wS0VTWBi
-  secret: my super secret phrase
-markdown:
-  render: # 渲染器设置
-    html: false # 过滤 HTML 标签
-    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
-    breaks: true # 转换段落里的 '\n' 到 <br>。
-    linkify: true # 将类似 URL 的文本自动转换为链接。
-    typographer: 
-    quotes: '“”‘’'
-  plugins: # markdown-it 插件设置
-    - plugin:
-        name: markdown-it-toc-and-anchor
-        enable: true
-        options: # 文章目录以及锚点应用的 class 名称，shoka 主题必须设置成这样
-          tocClassName: 'toc'
-          anchorClassName: 'anchor'
-    - plugin:
-        name: markdown-it-multimd-table
-        enable: true
-        options:
-          multiline: true
-          rowspan: true
-          headerless: true
-    - plugin:
-        name: ./markdown-it-furigana
-        enable: true
-        options:
-          fallbackParens: "()"
-    - plugin:
-        name: ./markdown-it-spoiler
-        enable: true
-        options:
-          title: "你知道得太多了"
-minify:
-  html:
-    enable: true
-    exclude: # 排除 hexo-feed 用到的模板文件
-      - '**/json.ejs'
-      - '**/atom.ejs'
-      - '**/rss.ejs'
-  css:
-    enable: true
-    exclude:
-      - '**/*.min.css'
-  js:
-    enable: true
-    mangle:
-      toplevel: true
-    output:
-    compress:
-    exclude:
-      - '**/*.min.js'
-
-autoprefixer:
-  exclude:
-    - '*.min.css'
