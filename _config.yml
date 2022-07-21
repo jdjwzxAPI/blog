@@ -162,3 +162,35 @@ minify:
 autoprefixer:
   exclude:
     - '*.min.css'
+feed:
+    limit: 20
+    order_by: "-date"
+    tag_dir: false
+    category_dir: false
+    rss:
+        enable: true
+        template: "themes/shoka/layout/_alternate/rss.ejs"
+        output: "rss.xml"
+    atom:
+        enable: true
+        template: "themes/shoka/layout/_alternate/atom.ejs"
+        output: "atom.xml"
+    jsonFeed:
+        enable: true
+        template: "themes/shoka/layout/_alternate/json.ejs"
+        output: "feed.json"
+algolia:
+  appId: '4BUMZNOGGI'
+  apiKey: '2ac3cd41e2303dde11492afa08fed360'
+  adminApiKey: 'a068c42143801553c4864ee435fd262e'
+  indexName: 'jdjwzxAPIBlogsearch'
+  chunkSize: 5000
+  fields:
+      - title: #必须配置
+      - path:  #必须配置
+      - categories: #推荐配置
+      - content:
+          strip: truncate,0,2000
+      - gallery:
+      - photos:
+      - tags:
