@@ -24,7 +24,7 @@ title: 文章的标题
 date: 文章发布是年/月/日 时/分/秒
 categories:
 - [博客的分类]
-tags:
+tags:标签
 ---
 这里开始使用Markdown书写博客正文
 ````
