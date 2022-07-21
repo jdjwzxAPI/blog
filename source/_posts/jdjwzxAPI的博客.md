@@ -1,7 +1,12 @@
-﻿---
+---
 title: jdjwzxAPI的博客
 date: 2022-02-03 12:53:56
 tags:
+- 声明
+- 梦开始的地方
+- jdjwzxAPI
+categories:
+- [jdjwzxAPI]
 ---
  1. 如无特别声明，该博客文章均为 jdjwzxAPI 原创，转载请遵循 署名-非商业性使用 4.0 国际（CC BY-NC-SA） 协议，即转载请注明文章来源。
  2. 管理员账户需向jdjwzxAPI申请。如有需要，请联系jdjwzxAPI@qq.com（个人）或jdjwzxAPIteam@outlook.com（团队），标题为：管理员申请
