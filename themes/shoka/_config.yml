@@ -184,8 +184,8 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId:HkFuW4Gg3bDwE83hw1FyY9US-gzGzoHsz # leancloud application app id
-  appKey:U9TkBsnzr8FvLegqup8KDwUc# leancloud application app key
+  appId:"HkFuW4Gg3bDwE83hw1FyY9US-gzGzoHsz" # leancloud application app id
+  appKey:"U9TkBsnzr8FvLegqup8KDwUc"# leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
