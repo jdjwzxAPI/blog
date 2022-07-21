@@ -20,10 +20,13 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 **注意要在文档开头添加**:
 ````
 ---
-title: 标题
-date: 2022-07-20 15:32:57
-tags:标签
+title: 文章的标题
+date: 文章发布是年/月/日 时/分/秒
+categories:
+- [博客的分类]
+tags:
 ---
+这里开始使用Markdown书写博客正文
 ````
 **否则会出现问题！！！**
 ### Run server
