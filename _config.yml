@@ -186,11 +186,10 @@ algolia:
   indexName: 'jdjwzxAPIBlogsearch'
   chunkSize: 5000
   fields:
-      - title: #必须配置
-      - path:  #必须配置
-      - categories: #推荐配置
-      - content:
-          strip: truncate,0,2000
-      - gallery:
-      - photos:
-      - tags:
+      - title #必须配置
+      - path #必须配置
+      - categories #推荐配置
+      - content:strip:truncate,0,4000
+      - gallery
+      - photos
+      - tags
