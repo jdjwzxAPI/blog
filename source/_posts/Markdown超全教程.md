@@ -1,9 +1,13 @@
 ---
 title: Markdown超全教程
 date: 2022-07-20 19:32:57
-tags: 奇怪的知识 , Markdown ,教程
+tags:
+-奇怪的知识
+-Markdown
+-教程
 categories:
 - [Markdown]
+- [奇怪的知识]
 ---
 [TOC]
 
