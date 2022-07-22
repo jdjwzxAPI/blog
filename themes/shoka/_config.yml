@@ -101,7 +101,8 @@ menu:
 
 social:
   github: https://github.com/jdjwzxAPI || github || "#191717"
-  google: https://plus.google.com/jdjwzxAPI || google
+  bilibili: https://space.bilibili.com/440968060 || bilibili
+  #google: https://plus.google.com/jdjwzxAPI || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
   zhihu: https://www.zhihu.com/people/jdjwzxapi || zhihu || "#1e88e5"
   music: https://music.163.com/#/user/home?id=1788042937 || cloud-music || "#e60026"
@@ -114,7 +115,6 @@ social:
   #instagram: https://instagram.com/yourname || instagram
   skype: skype:ZuoZhijie?call|chat || skype
   douban: https://www.douban.com/people/259814063/ || douban
-  bilibili: https://space.bilibili.com/440968060 || bilibili || "#55acd5"
 
 sidebar:
   # Sidebar Position.
