@@ -23,7 +23,7 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 
 也可以手动添加文档->文件名.md放入：主文件夹/source/_posts/ 中。
 
-**注意要在文档开头添加**:
+**一定要在文档开头添加:**
 ````
 ---
 title: 文章的标题
