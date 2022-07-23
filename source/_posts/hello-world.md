@@ -29,8 +29,12 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 title: 文章的标题
 date: 2022-01-01 01:01:01
 categories:
-- [博客的分类]
-tags:标签
+- [博客的分类1]
+- [博客的分类2]
+- [博客的分类3]
+tags:
+- [标签1]
+- [标签2]
 ---
 这里开始使用Markdown书写博客正文
 ````
