@@ -27,7 +27,7 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 ````
 ---
 title: 文章的标题
-date: 文章发布是年/月/日 时/分/秒
+date: 2022-01-01 01:01:01
 categories:
 - [博客的分类]
 tags:标签
